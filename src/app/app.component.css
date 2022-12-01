@@ -1,0 +1,48 @@
+.container{
+margin:auto;
+margin-top:100px;
+width:350px;
+height:450px;
+border:2px solid grey;
+border-radius:20px;
+padding:30px;
+color:#4C4C4C;
+background-color:#EEEEEE;
+}
+
+h1
+{
+text-align:center;
+color:#383838;
+}
+
+#generateBtn
+{
+background-color:tomato;
+font-size:16px;
+padding:10px;
+margin-top: 15px;
+color:white;
+border:1px solid red;
+border-radius:10px;
+cursor:pointer;
+}
+
+#generateBtn:disabled
+{
+opacity:0.25;
+}
+
+.inputArea input
+{
+margin:5px 5px;
+}
+
+.resultArea, .inputArea
+{
+margin-top:40px;
+}
+
+#password{
+color:red;
+}
