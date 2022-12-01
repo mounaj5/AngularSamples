@@ -52,7 +52,7 @@ export class AppComponent {
   generatePassword()
   {
   this.password='';
-  for(let i=0;i<=this.length;i++)
+  for(let i=1;i<=this.length;i++)
   {
     let j = Math.floor(Math.random() * this.searchString.length);
     this.password += this.searchString[j];
